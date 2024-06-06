@@ -30,7 +30,7 @@ export class AuthController {
   async logIn(@Req() request: Request): Promise<any> {
     const user = {
       username: (request.user as any)?.username ?? '',
-      employeeId: (request.user as any)?.employeeId ?? '',
+      id: (request.user as any)?.id ?? '',
     };
     return this.authService.logIn(user);
   }

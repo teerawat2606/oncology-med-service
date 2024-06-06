@@ -46,24 +46,3 @@ services:
 
 volumes:
   mysql_data:
-# services:
-#   doctor-wattanvej:
-#     platform: linux/amd64
-#     build:
-#       dockerfile: Dockerfile.dev
-#       context: .
-#     ports:
-#       - "3002:3002"
-#     volumes:
-#       - .:/app
-#       - /app/node_modules
-#     restart: always
-#     env_file:
-#       - development.env
-#     external_links:
-#       - socket-wattanavej
-#     networks:
-#       - socket-wattanavej_default
-# networks:
-#   socket-wattanavej_default:
-#     external: true

@@ -11,7 +11,6 @@ import AdminHomepage from "./AdminHomepage";
 const Homepage: React.FC = () => {
   const { user } = useAuth();
   const role = user?.role;
-
   return user && role ? (
     role === Role.DOCTOR ? (
       <DoctorHomepage />

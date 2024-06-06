@@ -22,11 +22,15 @@ export class UserController {
   @UseGuards(JwtAuthGuard)
   @ApiResponse({ type: UserInfo })
   @Get('user-info')
-  getUserInfo(@Req() request: Request): UserInfo {
+  getUserInfo(@Req() request: Request) {
     console.log('request', request.user);
     if (!request.user) throw new UnauthorizedException('User not logged in.');
-
-    return request.user as UserInfo;
+    const user = {
+      username: (request.user as any)?.username ?? '',
+      id: (request.user as any)?.id ?? 0,
+    };
+    // return request.user as UserInfo;
+    return this.userService.findById(user.id);
   }
 
   @UseGuards(JwtAuthGuard)
