@@ -1,0 +1,235 @@
+.rep-sum{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.containerpdf {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    /* width: 1000px;
+    height: 400px; */
+    width: 1500px;
+    height: 1500px;
+    width: 100%;
+    margin: 0 auto !important;
+    align-items: center;
+  }
+
+  /* A4 2480 x 3508 px */
+
+  /* width: 1000px;
+  height: 1500px; */
+.table-report-genreport 
+  
+  .card-container > * {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+  
+  .card-container {
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+   width: 1000px;
+height: 1430px;
+    margin: 0 auto;
+    /* padding: 1.5rem; */
+    background-color: white;
+  }
+  
+  .card-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 1rem !important;
+    padding: 40px;
+  }
+  
+  .card-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .patient-sticker{
+    border-style: solid;
+    border-color: black;
+    height: 150px;
+    width: 350px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-section{
+    display: flex;
+   justify-content: space-between;
+  }
+
+  .top-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 64px;
+    gap: 16px;
+
+  }
+  .name-detail{
+    display: flex;
+    padding-left: 44px;
+  }
+.name-detail-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.check-box{
+    border-style: solid;
+    border-color: black;
+    height: 12px;
+    width: 12px;
+    margin-left: 40px;
+}
+.list-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-bet{
+    margin-left: 8px;
+}
+
+.name-detail{
+    display: flex;
+    padding-left: 44px;
+  }
+
+.medicine-list{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.medicine-cost-title{
+    display: flex;
+    padding-left: 44px;
+    text-decoration: underline;
+}
+
+.medicine-cost{
+    display: flex;
+    padding-left: 44px;
+}
+
+.more-info{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.more-info-title{
+    display: flex;
+    padding-left: 44px;
+    text-decoration: underline;
+}
+
+.moreinfo{
+    display: flex;
+    padding-left: 80px;
+}
+
+.sig-sign{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;  
+}
+
+.tab-medicine{
+    width: 300px;
+    display: flex;
+    margin-left: 44px;
+}
+.heading-med{
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.tab-unit{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-cost{
+    margin-left: 200px
+}
+
+.table-report{
+  margin: 64px 24px 24px 0px;
+}
+.hn-tab{
+  border: 1.5px solid black;
+}
+.name-tab{
+  border: 1.5px solid black;
+}
+.date-tab{
+  border: 1.5px solid black;
+}
+.regimen-tab{
+  border: 1.5px solid black;
+}
+.item-tab{
+  border: 1.5px solid black;
+}
+.unit-tab{
+  border: 1.5px solid black;
+}
+.medicine-list{
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 940px;
+}
+.report-sum-tab{
+  border: 1.5px solid black;
+}
+.drug-name-tab{
+  border: 1.5px solid black;
+}
+.formula-quantity-tab{
+  border: 1.5px solid black;
+}
+.location-tab{
+  border: 1.5px solid black;
+}
+
+.table-container-report{
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 150px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+/* <td className="hn-tab">HN</td>
+<td className="name-tab">ชื่อผู้ป่วย</td>
+<td className="date-tab">วันที่ใช้ยา</td>
+<td className="regimen-tab">Regimen</td>
+<td className="item-tab">Item</td>
+<td className="unit-tab">จำนวน</td> */

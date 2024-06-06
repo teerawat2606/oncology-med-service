@@ -1,0 +1,24 @@
+.add-regimen {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+.addregimen-container {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+.alladdregbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  bottom: -30px;
+  left: -50px;
+  right: -100px;
+}
+.regimenname {
+  margin-top: 16px;
+}

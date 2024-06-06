@@ -1,0 +1,17 @@
+.containerpdf {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    /* width: 1000px;
+    height: 400px; */
+    width: 1500px;
+    height: 1500px;
+    width: 100%;
+    margin: 0 auto !important;
+    align-items: center;
+  }
+
+  /* A4 2480 x 3508 px */
+
+  /* width: 1000px;
+  height: 1500px; */

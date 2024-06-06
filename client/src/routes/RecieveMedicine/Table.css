@@ -1,0 +1,88 @@
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 16px;
+  padding: 8px 16px;
+}
+
+.returnmedicine {
+  height: 5vh;
+  padding: 32px 20%;
+  margin-top: 24px;
+  width: 100%;
+  color: var(--primary-color);
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.medicine {
+  font-weight: 500;
+  padding-left: 40px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+.size,
+.request {
+  margin-left: 16px;
+  font-size: 20px;
+  margin-top: 8px;
+  text-align: center;
+  vertical-align: top;
+}
+.return {
+  margin-left: 16px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.returnmedicineheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 16px;
+  color: var(--primary-color);
+}
+.returnmedicineheaderrequest {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+.returnmedicineheadermedicine {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+.returnmedicineheaderreturn {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  text-align: center;
+}
+.returnmedicinebutton {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 16px 32px;
+  margin: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.allreturnmedicinebutton {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 32px;
+  width: calc(100% - 370px);
+}
+
+.returnmedicinebutton1 {
+  display: flex;
+}

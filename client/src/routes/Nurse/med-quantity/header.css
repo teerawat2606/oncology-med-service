@@ -1,0 +1,51 @@
+@import "../../../../var.css";
+
+.page-container {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  min-height: calc(100% - 93px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 16px;
+  padding: 8px 16px;
+}
+
+.button-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.button-nurse {
+  background-color: var(--red-color);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.user-role {
+  color: var(--primary-color);
+  font-size: 32px;
+}
+
+.user-name {
+  color: var(--primary-color);
+  font-size: 18.72px;
+}
+
+.status-tab {
+  padding: 8px;
+  margin: 0 16px 8px;
+  background-color: var(--grey-color);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 4px;
+}

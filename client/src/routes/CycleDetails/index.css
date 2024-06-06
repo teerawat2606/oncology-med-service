@@ -1,0 +1,30 @@
+@import "../../var.css";
+
+.cycledetailstext {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+
+.table-containerrr {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 140px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+.allcycledetailsbutton {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  /* bottom: 32px; */
+  width: calc(100% - 50px);
+}
+
+.flexfordetail {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,36 @@
+@import "../../../var.css";
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 8px;
+}
+
+.button-nurse {
+  background-color: var(--red-color);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.tab-list {
+  padding: 8px;
+  background-color: var(--grey-color);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 4px;
+  width: 100%;
+}
+
+.tab-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

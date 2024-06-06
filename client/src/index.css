@@ -1,0 +1,160 @@
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .div {
+  background-color: #ffffff;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.login .text-box-instance {
+  left: 553px !important;
+  position: absolute !important;
+  top: 630px !important;
+}
+
+.login .text-body-instance {
+  left: 553px !important;
+  position: absolute !important;
+  top: 605px !important;
+}
+
+.login .design-component-instance-node {
+  color: var(--x-6) !important;
+}
+
+.login .text-body-2 {
+  left: 572px !important;
+  position: absolute !important;
+  top: 688px !important;
+}
+
+.login .text-body-3 {
+  font-family: "Inter-Regular", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: normal !important;
+}
+
+.login .text-body-4 {
+  left: 768px !important;
+  position: absolute !important;
+  top: 688px !important;
+}
+
+.login .text-body-5 {
+  color: var(--x-8) !important;
+  font-family: "Inter-Regular", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: normal !important;
+}
+
+.login .text-box-2 {
+  left: 553px !important;
+  position: absolute !important;
+  top: 550px !important;
+}
+
+.login .text-body-6 {
+  left: 553px !important;
+  position: absolute !important;
+  top: 525px !important;
+}
+
+.login .overlap-group {
+  border-radius: 5px;
+  height: 34px;
+  left: 553px;
+  position: absolute;
+  top: 473px;
+  width: 334px;
+}
+
+.login .text-box-3 {
+  color: #003a6c !important;
+  height: 18px !important;
+  top: 6px !important;
+  white-space: nowrap !important;
+  width: unset !important;
+}
+
+.login .text-box-4 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.login .image {
+  height: 19px;
+  left: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 25px;
+}
+
+.login .text-body-7 {
+  left: 553px !important;
+  position: absolute !important;
+  top: 448px !important;
+}
+
+.login .checkbox-instance {
+  left: 553px !important;
+  position: absolute !important;
+  top: 689px !important;
+}
+
+.login .button-instance {
+  height: 32px !important;
+  left: 649px !important;
+  position: absolute !important;
+  top: 729px !important;
+  width: 142px !important;
+}
+
+.login .button-2 {
+  height: 19px !important;
+  left: 15px !important;
+  top: 6px !important;
+  white-space: nowrap !important;
+  width: 111px !important;
+}
+
+.login .overlap {
+  height: 169px;
+  left: 546px;
+  position: absolute;
+  top: 263px;
+  width: 349px;
+}
+
+.login .img {
+  height: 108px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 308px;
+}
+
+.login .image-2 {
+  height: 169px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 349px;
+}
+

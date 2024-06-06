@@ -1,0 +1,126 @@
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 16px;
+  padding: 8px 16px;
+}
+
+.usagesummary {
+  height: 5vh;
+  padding: 32px 20%;
+  margin-top: 24px;
+  width: 100%;
+  color: var(--primary-color);
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.medicine {
+  font-weight: 500;
+  padding-left: 40px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+.size,
+.request {
+  margin-left: 16px;
+  font-size: 20px;
+  margin-top: 8px;
+  text-align: center;
+}
+.return {
+  margin-left: 16px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.usage-summary-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 16px;
+  color: var(--primary-color);
+}
+.usagesummaryheaderrequest {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+.usagesummaryheadermedicine {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+.usagesummaryheaderreturn {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  text-align: center;
+}
+.usagesummarybutton {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 16px 32px;
+  margin: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.allusagesummarybutton {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  width: calc(100vw - 350px);
+}
+
+.usagesummarybutton1 {
+  display: flex;
+}
+
+.page-container-usagesummary {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  height: calc(100vh - 93px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.flexxxr {
+  display: flex;
+  flex-direction: column;
+}
+.flexxxxr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 220px);
+}
+
+.table-container-usagesummary {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 150px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.h5 {
+  color: var(--primary-color);
+  font-size: 24px;
+  margin-bottom: 12px;
+}

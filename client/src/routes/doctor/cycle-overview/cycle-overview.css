@@ -1,0 +1,89 @@
+ @import "../../..//var.css"; 
+
+.box-cycleoverview {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Align content to space between */
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 160px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow-y: auto; /* Add scroll if content overflows */
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Align with the design */
+}
+
+li {
+  color: #00104f; /* Assuming a darker color for text */
+  margin-bottom: 8px; /* Space between items */
+  font-size: 18px;
+}
+
+.regidata p{
+  font-size: 18px;
+}
+
+p {
+  color: var(--primary-color); /* Assuming a darker color for text */
+  margin-bottom: 8px; /* Space between items */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  color: var(--primary-color); /* Assuming a darker color for the title */
+  font-size: 24px; /* Larger font size for title */
+  margin-bottom: 12px; /* More space below the title */
+}
+
+.left {
+  font-weight: bold;
+  width: 20%;
+}
+
+.containerleftright{
+  display: flex;
+  flex-direction: row;
+}
+
+.patient99 {
+  margin-top: 12px;
+  margin-bottom: 8px; /* Space between sections */
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.short-container p,
+.short-container li {
+  display: inline-block; /* Make label and value appear on the same line */
+  margin-right: 10px; /* Space between label and value */
+}
+
+.regimen-selection{
+  height: 35px;
+  margin-bottom: 8px;
+}
+
+.regimen-selection select {
+  padding: 8px; /* Padding inside select box */
+  border: 1px solid #ccc; /* Border as per design */
+  border-radius: 4px; /* Slight rounding of corners */
+}
+
+
+.two-buttonforcycleoverview {
+  display: flex;
+  justify-content: space-between; /* Distribute space between buttons */
+  align-items: flex-end; /* Align items to the bottom of the container */
+  margin-top: calc(100vh - 520px); /* Push to the bottom */
+}
+
+

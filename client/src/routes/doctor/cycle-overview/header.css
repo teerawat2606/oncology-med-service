@@ -1,0 +1,5 @@
+@import "../../../var.css";
+
+.user {
+    color: var(--primary-color);
+  }

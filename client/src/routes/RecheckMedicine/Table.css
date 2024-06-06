@@ -1,0 +1,121 @@
+@import "../../var.css";
+
+.patient-tag {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.patientnameandHN {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+  gap: 4px;
+}
+.HN {
+  font-weight: 400;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left: 56px;
+  color: var(--primary-color);
+}
+.subinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-top: 8px;
+}
+.regimen {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.notefromdoctor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.notefrompharmacy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  padding: 16px 0;
+  color: var(--primary-color);
+}
+.recheckmedicinetable {
+  color: var(--primary-color);
+  font-size: 20px;
+  border-collapse: separate;
+  border-spacing: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 0 120px;
+  vertical-align: center;
+  margin-top: 8px;
+}
+.recheckmedicinebutton {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 16px 32px;
+  /* margin: 8px 16px; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.allrecheckmedicinebutton {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  /* bottom: 32px; */
+  width: calc(100vw - 370px);
+}
+
+.recheckmedicinebutton1 {
+  display: flex;
+}
+.pharmacyamount {
+  margin-top: 24px;
+}
+.table-container-recheck-1 {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 150px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flexxx {
+  display: flex;
+  flex-direction: column;
+}
+.flexxxx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 150px);
+}

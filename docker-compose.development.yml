@@ -8,23 +8,24 @@ services:
     ports:
       - "3306:3306"
     env_file:
-      - ./oncology-med-be/.env.development
+      - ./server/.env.development
     volumes:
       - mysql_data:/var/lib/mysql
 
   oncology-med-be:
     platform: linux/amd64
     build:
-      context: ./oncology-med-be
+      context: ./server
       dockerfile: Dockerfile.dev
+    container_name: oncology-med-be
     ports:
       - "3001:3001"
     volumes:
-      - ./oncology-med-be:/app
+      - ./server:/app
       - /app/node_modules
     restart: always
     env_file:
-      - ./oncology-med-be/.env.development
+      - ./server/.env.development
     depends_on:
       - mysql-oncology-med
     external_links:
@@ -32,15 +33,15 @@ services:
 
   oncology-med-fe:
     build:
-      context: ./oncology-med-fe
+      context: ./client
       dockerfile: Dockerfile.dev
     container_name: oncology-med-fe
     ports:
       - "3000:3000"
     env_file:
-      - ./oncology-med-fe/.env.development
+      - ./client/.env.development
     volumes:
-      - ./oncology-med-fe:/app
+      - ./client:/app
 
 volumes:
   mysql_data:

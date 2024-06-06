@@ -1,0 +1,5 @@
+.unauthorized {
+  margin-left: 300px;
+  color: var(--primary-color);
+  padding: 16px 32px;
+}

@@ -1,0 +1,8 @@
+.page-container-allpateint {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  min-height: calc(100% - 93px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

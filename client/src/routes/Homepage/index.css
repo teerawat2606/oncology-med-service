@@ -1,0 +1,8 @@
+.homepage {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  height: calc(100vh - 93px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

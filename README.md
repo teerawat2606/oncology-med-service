@@ -42,7 +42,7 @@ The project is organized into two main directories:
 
 1. Navigate to the backend directory:
    ```bash
-   cd oncology-med-be
+   cd server
    ```
 2. Create a `.env` file based on the provided example:
    ```bash
@@ -57,7 +57,7 @@ The project is organized into two main directories:
 
 1. Navigate to the frontend directory:
    ```bash
-   cd oncology-med-fe
+   cd client
    ```
 2. Create a `.env` file based on the provided example:
    ```bash

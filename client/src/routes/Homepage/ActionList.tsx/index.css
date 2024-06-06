@@ -1,0 +1,26 @@
+@import "../../../var.css";
+
+.action-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 8px;
+  width: fit-content;
+  flex-shrink: 0;
+}
+
+.action-button {
+  background-color: var(--light-red-color);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.action-button:hover {
+  background-color: var(--red-color);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+}

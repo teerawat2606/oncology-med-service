@@ -1,0 +1,326 @@
+@import "../../var.css";
+
+.rep-sum8 {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+.containerpdf8 {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+  /* width: 1000px;
+    height: 400px; */
+  width: 1500px;
+  height: 1500px;
+  width: 100%;
+  margin: 0 auto !important;
+  align-items: center;
+}
+
+/* A4 2480 x 3508 px */
+
+/* width: 1000px;
+  height: 1500px; */
+
+.card-container8 > * {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.card-container8 {
+  text-align: center;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  width: 1000px;
+  height: 1430px;
+  margin: 0 auto;
+  /* padding: 1.5rem; */
+  background-color: white;
+}
+
+.card-image8 {
+  max-width: 20%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-title8 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 1rem !important;
+  padding: 40px;
+}
+
+.card-paragraph8 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.patient-sticker8 {
+  border-style: solid;
+  border-color: black;
+  height: 150px;
+  width: 350px;
+  margin-right: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-section8 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-content8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 64px;
+  gap: 16px;
+}
+.name-detail8 {
+  display: flex;
+  padding-left: 44px;
+}
+.name-detail-container8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.check-box8 {
+  border-style: solid;
+  border-color: black;
+  height: 12px;
+  width: 12px;
+  margin-left: 40px;
+}
+.list-box8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space-bet8 {
+  margin-left: 8px;
+}
+
+.name-detail8 {
+  display: flex;
+  padding-left: 44px;
+}
+
+.medicine-list8 {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.medicine-cost-title8 {
+  display: flex;
+  padding-left: 44px;
+  text-decoration: underline;
+}
+
+.medicine-cost8 {
+  display: flex;
+  padding-left: 44px;
+}
+
+.tophead8 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.papername8 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.more-info8 {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.more-info-title8 {
+  display: flex;
+  padding-left: 44px;
+  text-decoration: underline;
+}
+
+.moreinfo8 {
+  display: flex;
+  padding-left: 80px;
+}
+
+.sig-sign8 {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tab-medicine8 {
+  width: 300px;
+  display: flex;
+  margin-left: 44px;
+}
+.heading-med8 {
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.tab-unit8 {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-cost8 {
+  margin-left: 200px;
+}
+.report-sum-tab8 {
+  height: 40px;
+}
+
+.item-tabhead,
+.unit-tabhead8 {
+  background-color: rgb(190, 185, 185);
+}
+
+.table-report8 {
+  margin: 12px 24px 24px 0px;
+}
+.hn-tab8 {
+  border: 1.5px solid black;
+}
+.name-tab8 {
+  border: 1.5px solid black;
+}
+.date-tab8 {
+  border: 1.5px solid black;
+}
+.regimen-tab8 {
+  border: 1.5px solid black;
+}
+.item-tab8,
+.unit-tab8,
+.item-tabhead8,
+.unit-tabhead8 {
+  border: 1.5px solid black;
+}
+
+.medicine-list8 {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 940px;
+}
+
+.twoinvenpdfbutton8 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.invenpdfbutton8 {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 16px 32px;
+  /* margin: 8px 16px; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  height: fit-content;
+  margin-bottom: 30px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.page-container-pdf8 {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  min-height: calc(100% - 93px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.table-container-pdf8 {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 150px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+.headline8 {
+  display: flex;
+  justify-content: space-between; /* Align items on opposite ends */
+  border-bottom: 1px dashed #000; /* Dashed line below the headline section */
+  padding-bottom: 0.5rem; /* Space above the dashed line */
+  margin-bottom: 1rem; /* Space below the dashed line */
+}
+
+.bottomline8 {
+  border-top: 1px dashed #000; /* Dashed line below the headline section */
+  padding-top: 0.5rem; /* Space above the dashed line */
+  margin-top: 1rem; /* Space below the dashed line */
+}
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Space between the lines */
+}
+
+/* Optional: If you want to make the text on the right side aligned to the right */
+.headline8 p:last-child,
+.bottomline8 p:last-child {
+  text-align: right;
+  flex: 1;
+}
+
+.line1 p:last-child,
+.line2 p:last-child,
+.line3 p:last-child {
+  text-align: left;
+  flex: 1;
+}
+
+/* Ensure that the Regimen and Note sections align vertically */
+.line1,
+.line2 {
+  align-items: baseline;
+}
+
+/* Styles for the dates and doctor's name to have them closer together */
+.line2 p,
+.line3 p {
+  margin-right: 2rem; /* Adjust the spacing to match your design */
+}
+
+.download-button8 {
+  height: 56px;
+  width: 157px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--blue-color);
+  color: white;
+}

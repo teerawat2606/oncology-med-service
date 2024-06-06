@@ -1,0 +1,7 @@
+.editmedicineheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 16px;
+  color: var(--primary-color);
+}

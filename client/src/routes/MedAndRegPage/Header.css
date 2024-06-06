@@ -1,0 +1,106 @@
+@import "../../var.css";
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 16px;
+  padding: 8px 16px;
+}
+
+.button-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.button-nurse {
+  background-color: var(--red-color);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.user {
+  color: var(--primary-color);
+}
+
+.status-tab {
+  padding: 8px;
+  margin: 0 16px 8px;
+  background-color: var(--grey-color);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 4px;
+  width: 100%;
+}
+.to-do {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.waiting {
+  border: none;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.add-reg {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0px 16px 0px;
+  height: 36px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.add-med {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 16px 16px 8px;
+  height: 36px;
+  width: 150px;
+  text-decoration: underline;
+  border-bottom: 2px solid var(--red-color);
+}
+
+.tabtab {
+  display: flex;
+  flex-direction: row;
+  max-height: 60px;
+}
+.ccon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+button {
+  text-decoration: none;
+}
+
+Link {
+  text-decoration: none;
+}

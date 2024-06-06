@@ -1,0 +1,33 @@
+.ordermedicineheader {
+  text-align: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ordermedicine {
+  height: 5vh;
+  padding: 0px 10%;
+  width: 100%;
+  color: var(--primary-color);
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.inventoryPR {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-end;
+}
+
+.table-container-ordermed{
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 150px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+
+}

@@ -1,0 +1,180 @@
+@import "../../var.css";
+
+.box {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  height: 75vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.first-column {
+  height: 24px;
+}
+
+tr {
+  color: var(--primary-color);
+  vertical-align: center;
+  height: fit-content;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-top: 16px;
+}
+.patient-information {
+  width: 100%;
+}
+.part-one-text {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-shrink: 6;
+}
+.part-two-text {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-shrink: 1;
+}
+
+.page-container {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  min-height: calc(100% - 93px);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.container {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin-top: 16px;
+  height: 30%;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+input {
+  margin-left: 16px;
+}
+
+.text-box {
+  left: 30px;
+}
+
+.patient {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.short-text {
+  width: 40px;
+}
+
+.short-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.two-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+.button-color {
+  background-color: var(--white-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 16px 24px;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.link-normal {
+  background-color: var(--white-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.link-normal:hover,
+.link-selected {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#dropdown {
+  margin-left: 16px;
+  width: 204px;
+}
+.inputto {
+  width: 200px;
+}
+.antdinput {
+  padding: 0px;
+}
+.patient-detail {
+  display: flex;
+  justify-content: start;
+}
+.ant-form-item-required {
+  width: 230px;
+  display: flex;
+  justify-content: end;
+}
+.radio {
+  text-align: start;
+}
+.ant-form-item-label {
+  justify-content: start;
+}
+.first-column {
+  justify-content: start;
+}
+.allopencyclebutton {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 32px;
+  width: calc(100% - 40px);
+}
+
+.submit-button5 {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 16px 32px;
+  margin: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.table-container-open {
+  margin: 0 16px 32px;
+  background-color: var(--grey-color);
+  padding: 16px;
+  border-radius: 20px;
+  min-height: calc(100vh - 150px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
