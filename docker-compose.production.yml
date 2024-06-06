@@ -1,0 +1,69 @@
+# BULID PRODUCTION ##
+version: "3.7"
+services:
+  mysql-oncology-med:
+    container_name: mysql-oncology-med
+    image: mysql:8.0
+    restart: always
+    ports:
+      - "3306:3306"
+    env_file:
+      - ./oncology-med-be/.env.production
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  oncology-med-be:
+    container_name: oncology-med-be
+    platform: linux/amd64
+    build:
+      context: ./oncology-med-be
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./oncology-med-be:/app
+      - /app/node_modules
+    restart: always
+    env_file:
+      - ./oncology-med-be/.env.production
+    depends_on:
+      - mysql-oncology-med
+    external_links:
+      - mysql-oncology-med
+
+  oncology-med-fe:
+    container_name: oncology-med-fe
+    platform: linux/amd64
+    build:
+      context: ./oncology-med-fe
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3000:80"
+    env_file:
+      - ./oncology-med-fe/.env.production
+    volumes:
+      - ./oncology-med-fe:/app
+
+volumes:
+  mysql_data:
+# services:
+#   doctor-wattanvej:
+#     platform: linux/amd64
+#     build:
+#       dockerfile: Dockerfile.dev
+#       context: .
+#     ports:
+#       - "3002:3002"
+#     volumes:
+#       - .:/app
+#       - /app/node_modules
+#     restart: always
+#     env_file:
+#       - development.env
+#     external_links:
+#       - socket-wattanavej
+#     networks:
+#       - socket-wattanavej_default
+# networks:
+#   socket-wattanavej_default:
+#     external: true
