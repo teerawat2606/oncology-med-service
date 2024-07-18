@@ -1,3 +1,52 @@
+# # BULID PRODUCTION ##
+# version: "3.7"
+# services:
+#   mysql-oncology-med:
+#     container_name: mysql-oncology-med
+#     image: mysql:8.0
+#     restart: always
+#     ports:
+#       - "3306:3306"
+#     env_file:
+#       - ./server/.env.production
+#     volumes:
+#       - mysql_data:/var/lib/mysql
+
+#   oncology-med-be:
+#     container_name: oncology-med-be
+#     platform: linux/amd64
+#     build:
+#       context: ./server
+#       dockerfile: Dockerfile.prod
+#     ports:
+#       - "3001:3001"
+#     volumes:
+#       - ./server:/app
+#       - /app/node_modules
+#     restart: always
+#     env_file:
+#       - ./server/.env.production
+#     depends_on:
+#       - mysql-oncology-med
+#     external_links:
+#       - mysql-oncology-med
+
+#   oncology-med-fe:
+#     container_name: oncology-med-fe
+#     platform: linux/amd64
+#     build:
+#       context: ./client
+#       dockerfile: Dockerfile.prod
+#     ports:
+#       - "3000:80"
+#     env_file:
+#       - ./client/.env.production
+#     volumes:
+#       - ./client:/app
+
+# volumes:
+#   mysql_data:
+
 # BULID PRODUCTION ##
 version: "3.7"
 services:
@@ -11,38 +60,37 @@ services:
       - ./server/.env.production
     volumes:
       - mysql_data:/var/lib/mysql
+  # oncology-med-be:
+  #   container_name: oncology-med-be
+  #   platform: linux/amd64
+  #   build:
+  #     context: ./server
+  #     dockerfile: Dockerfile.prod
+  #   ports:
+  #     - "3001:3001"
+  #   volumes:
+  #     - ./server:/app
+  #     - /app/node_modules
+  #   restart: always
+  #   env_file:
+  #     - ./server/.env.production
+  #   depends_on:
+  #     - mysql-oncology-med
+  #   external_links:
+  #     - mysql-oncology-med
 
-  oncology-med-be:
-    container_name: oncology-med-be
-    platform: linux/amd64
-    build:
-      context: ./server
-      dockerfile: Dockerfile.prod
-    ports:
-      - "3001:3001"
-    volumes:
-      - ./server:/app
-      - /app/node_modules
-    restart: always
-    env_file:
-      - ./server/.env.production
-    depends_on:
-      - mysql-oncology-med
-    external_links:
-      - mysql-oncology-med
-
-  oncology-med-fe:
-    container_name: oncology-med-fe
-    platform: linux/amd64
-    build:
-      context: ./client
-      dockerfile: Dockerfile.prod
-    ports:
-      - "3000:80"
-    env_file:
-      - ./client/.env.production
-    volumes:
-      - ./client:/app
+  # oncology-med-fe:
+  #   container_name: oncology-med-fe
+  #   platform: linux/amd64
+  #   build:
+  #     context: ./client
+  #     dockerfile: Dockerfile.prod
+  #   ports:
+  #     - "3000:80"
+  #   env_file:
+  #     - ./client/.env.production
+  #   volumes:
+  #     - ./client:/app
 
 volumes:
   mysql_data:
