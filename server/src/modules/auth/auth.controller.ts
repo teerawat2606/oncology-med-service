@@ -31,6 +31,7 @@ export class AuthController {
     const user = {
       username: (request.user as any)?.username ?? '',
       id: (request.user as any)?.id ?? '',
+      role: (request.user as any)?.role ?? '',
     };
     return this.authService.logIn(user);
   }

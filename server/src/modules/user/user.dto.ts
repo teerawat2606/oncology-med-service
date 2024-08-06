@@ -8,6 +8,7 @@ export class CredentialDto {
   @ApiProperty()
   password: string;
   id: number;
+  role: string;
 }
 
 export class SignUpDto {

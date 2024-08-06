@@ -21,7 +21,7 @@ export class AuthService {
   async validateUser(
     username: string,
     password: string,
-  ): Promise<{ username: string; id: number }> {
+  ): Promise<{ username: string; id: number; role: string }> {
     const userCredential: CredentialDto =
       await this.userService.findOneForSignIn(username);
     console.log('userCredential', userCredential);
@@ -33,6 +33,7 @@ export class AuthService {
       return {
         username: userCredential.username,
         id: userCredential.id,
+        role: userCredential.role,
       };
     }
     return null;
@@ -47,10 +48,11 @@ export class AuthService {
     return { message: 'Sign up successful', statusCode: HttpStatus.CREATED };
   }
 
-  logIn(user: { username: string; id: number }): any {
+  logIn(user: { username: string; id: number; role: string }): any {
     const payload = {
       username: user.username,
       id: user.id,
+      role: user.role,
     };
     return {
       message: 'Log in successful',
